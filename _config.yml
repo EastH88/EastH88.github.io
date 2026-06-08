@@ -14,36 +14,27 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+# 1. 내 블로그의 기본 정보 설정
+title: Easth88's DevLog               # 블로그 메인 타이틀 (원하는 이름으로 변경 가능)
+tagline: 꾸준히 성장하는 개발 기록     # 블로그 왼쪽 사이드바에 들어갈 한 줄 소개
+description: >-                     # 검색 엔진(SEO)에 노출될 블로그 설명
+  Easth88의 개발 및 기술 블로그입니다.
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+# 2. 내 사이트 주소 입력 (매우 중요!)
+# 본인의 GitHub Pages 주소를 정확히 입력합니다. 끝에 '/'는 붙이지 마세요.
+url: "https://easth88.github.io"
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
-
+# 3. 깃허브 계정 연동
 github:
-  username: github_username # change to your GitHub username
+  username: easth88                 # 본인의 GitHub 아이디를 적어줍니다.
 
-twitter:
-  username: twitter_username # change to your Twitter username
-
+# 4. 저작권자 정보 및 이메일 설정
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  name: Easth88                     # 포스트 하단 카피라이트에 들어갈 본인의 이름
+  email: your-email@gmail.com       # 본인 이메일 주소
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/easth88    # 깃허브 홈 주소 연동
+    # 사용하지 않는 트위터 등의 링크는 앞에 #을 붙여서 지우거나 주석 처리해도 됩니다.
 
 # Site Verification Settings
 webmaster_verifications:
